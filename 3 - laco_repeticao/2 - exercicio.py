@@ -3,24 +3,24 @@ os.system ("cls")
 
 print("= Tabuada =")
 
-print("Soma")
+print(f"\n- Soma -")
 numero = int(input("Digite um número: "))
 for i in range(1, 11):
     print (f"{numero} + {i} = {numero + i} ")
 
-print("Subtração")
+print(f"\n- Subtração -")
 numero = int(input(f"\nDigite um número: "))
 for i in range(1, 11):
     print (f"{numero} - {i} = {numero - i} ")
 
 
-print("Multiplicação")
+print(f"\n- Multiplicação -")
 numero = int(input(f"\nDigite um número: "))
 for i in range(1, 11):
     print (f"{numero} * {i} = {numero * i} ")
 
 
-print("Divisão")
+print(f"\n- Divisão -")
 numero = int(input(f"\nDigite um número: "))
 for i in range(1, 11):
     print (f"{numero} / {i} = {numero / i} ")
