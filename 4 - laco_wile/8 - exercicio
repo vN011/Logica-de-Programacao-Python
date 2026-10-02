@@ -1,0 +1,12 @@
+import os
+os.system("Cls")
+
+
+while True:
+    nota = float(input("Digite uma nota entre 0 a 10 : "))
+    if nota < 0 or nota > 10:
+        print("Nota inválida.")
+        print("Tente novamente! \n")
+    else:
+        print(f"Sua nota é {nota}")
+        break
